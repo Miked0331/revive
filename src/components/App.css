@@ -5,9 +5,12 @@
     grid-gap: 2em;
 }
 
-.col-1 {
-    text-align: center;
+.col-1 img {
+  width: 100%;
+  height: auto;
 }
+
+
 
 @media only screen and (max-width: 800px) {
     .col-main {
@@ -21,8 +24,15 @@
     }
   }
 
-@media only screen and (max-width: 600px) {
+/*@media only screen and (max-width: 600px) {
     .col-main {
       display: block;
     }
   }
+
+  @media only screen and (max-width: 600px) {
+    .col-main img {
+      width:70%;
+      height: auto;
+    }
+  }*/

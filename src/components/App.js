@@ -1,20 +1,20 @@
 import React from 'react'
 import Card from './Card'
 import './App.css'
-
+import p1 from './img/p1.jpg'
 
 
 const App = () => {
     return (
-        <div className="col-main tc grow ">
-            <div className="col-1 bb bt bl br">
-            <img src="image/p1.jpg" />
+        <div className="col-main tc ">
+            <div className="col-1 ">
+            <img src={p1} />
             </div>
-            <div className="col-2 bb bt bl br">
-           hello
+            <div className="col-2 ">
+            <img src={p1} />
             </div>
-            <div className="col-3 bb bt bl br">
-           hello
+            <div className="col-3 ">
+            <img src={p1} />
             </div>
          
 
