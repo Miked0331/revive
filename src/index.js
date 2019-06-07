@@ -2,13 +2,11 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import App from './components/App';
 import * as serviceWorker from './serviceWorker';
-import Grid1 from './components/Grid1'
 
 
 ReactDOM.render(<div>
     <App />
    
-    <Grid1 />
     </div>, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change

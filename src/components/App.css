@@ -19,8 +19,9 @@
   }
 
   @media only screen and (max-width: 800px) {
-    .ui centered card {
-      width: 100%;
+    .col-1 img {
+width: 90%;
+height: auto;
     }
   }
 

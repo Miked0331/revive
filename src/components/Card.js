@@ -1,9 +1,17 @@
 import React from 'react'
+import './App.css'
+import p1 from './img/p1.jpg'
 
-const Card = () => {
+const Card = (props) => {
     return(
-        <div>
-            <img src="image/p1.jpg" />
+       
+        <div className="col-1">
+             <div className="">
+            <img src={p1} />
+            <p>{props.desc}</p>
+            <p>{props.price}</p>
+            </div>
+            
         </div>
        
     )

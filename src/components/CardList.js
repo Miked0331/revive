@@ -6,7 +6,7 @@ const CardList = ({Info}) => {
         return <Card img={Info[i].img} desc={Info[i].desc} price={Info[i].price} />
     })
     return (
-        <div>
+        <div className="col-main">
             {cardComponent}
         </div>
     )
