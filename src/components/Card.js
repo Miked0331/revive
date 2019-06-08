@@ -7,14 +7,13 @@ const Card = (props) => {
 
         <div className="col-1">
             <div className="">
-                <img src="https://resizeimage.net/myimg/WPTwqEyLXgp779Up-pic-jpg" />
+                {props.children}
                 <p>{props.desc}</p>
                 <p>{props.price}</p>
             </div>
-
         </div>
 
     )
 }
 
-export default Card
+export default Card 

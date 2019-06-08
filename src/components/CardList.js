@@ -1,9 +1,10 @@
 import React from 'react'
 import Card from './Card'
 
-const CardList = ({Info}) => {
-    const cardComponent = Info.map((user, i) =>{
-        return <Card img={Info[i].img} desc={Info[i].desc} price={Info[i].price} />
+// using my own image
+const CardList = ({ Info }) => {
+    const cardComponent = Info.map((user, i) => {
+        return <Card desc={Info[i].desc} price={Info[i].price}> <img src={Info[i].img} /></Card>
     })
     return (
         <div className="col-main">
@@ -11,5 +12,17 @@ const CardList = ({Info}) => {
         </div>
     )
 }
+
+//using image in Card.js
+/*const CardList = ({ Info }) => {
+    const cardComponent = Info.map((user, i) => {
+        return <Card desc={Info[i].desc} price={Info[i].price}></Card>
+    })
+    return (
+        <div className="col-main">
+            {cardComponent}
+        </div>
+    )
+}*/
 
 export default CardList
