@@ -8,6 +8,7 @@ body {
     margin:  0 21% 0 21%;    
     justify-items: center;   
     grid-gap: 25px;
+    padding-top: 10px;
 
 }
   .col-1 img{    
@@ -33,7 +34,10 @@ body {
     margin:  0 21% 0 21%;  
   }
 
-  
+  .landing img {
+    width: 316px;
+    height: auto; 
+  }
 
   .nav {
     background-color: #ffb800;
@@ -50,7 +54,14 @@ body {
 
   @media only screen and (max-width: 1200px) {
     .landing {
-      text-align: center;
       margin: 0 5% 0 5%;
     }
   }
+
+  @media only screen and (max-width: 1200px) {
+    .landing img {
+      width: 250px;
+      height: 25vh;
+    }
+  }
+
