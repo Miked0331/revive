@@ -1,19 +1,19 @@
 import React from 'react'
 import './App.css'
-import p1 from './img/p1.jpg'
+
 
 const Card = (props) => {
-    return(
-       
+    return (
+
         <div className="col-1">
-             <div className="">
-            <img src={p1} />
-            <p>{props.desc}</p>
-            <p>{props.price}</p>
+            <div className="">
+                <img src="https://resizeimage.net/myimg/WPTwqEyLXgp779Up-pic-jpg" />
+                <p>{props.desc}</p>
+                <p>{props.price}</p>
             </div>
-            
+
         </div>
-       
+
     )
 }
 
