@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/revive/static/css/main.610c1bc9.chunk.css",
-    "main.js": "/revive/static/js/main.de253c58.chunk.js",
-    "main.js.map": "/revive/static/js/main.de253c58.chunk.js.map",
+    "main.css": "/revive/static/css/main.b2d36289.chunk.css",
+    "main.js": "/revive/static/js/main.6d96b7e5.chunk.js",
+    "main.js.map": "/revive/static/js/main.6d96b7e5.chunk.js.map",
     "runtime~main.js": "/revive/static/js/runtime~main.6e3875ef.js",
     "runtime~main.js.map": "/revive/static/js/runtime~main.6e3875ef.js.map",
-    "static/js/2.8a3c1329.chunk.js": "/revive/static/js/2.8a3c1329.chunk.js",
-    "static/js/2.8a3c1329.chunk.js.map": "/revive/static/js/2.8a3c1329.chunk.js.map",
+    "static/js/2.5ecca776.chunk.js": "/revive/static/js/2.5ecca776.chunk.js",
+    "static/js/2.5ecca776.chunk.js.map": "/revive/static/js/2.5ecca776.chunk.js.map",
     "index.html": "/revive/index.html",
-    "precache-manifest.c186660d1dd24fe2d3f9b6c759f6c923.js": "/revive/precache-manifest.c186660d1dd24fe2d3f9b6c759f6c923.js",
+    "precache-manifest.113a0b9dbf733e01139113f41983b952.js": "/revive/precache-manifest.113a0b9dbf733e01139113f41983b952.js",
     "service-worker.js": "/revive/service-worker.js",
-    "static/css/main.610c1bc9.chunk.css.map": "/revive/static/css/main.610c1bc9.chunk.css.map",
-    "static/media/p1.jpg": "/revive/static/media/p1.c8971ba6.jpg"
+    "static/css/main.b2d36289.chunk.css.map": "/revive/static/css/main.b2d36289.chunk.css.map",
+    "static/media/p1.jpg": "/revive/static/media/p1.cca6f664.jpg"
   }
 }
