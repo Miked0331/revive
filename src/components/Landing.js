@@ -4,7 +4,7 @@ import './App.css'
 const Landing = () => {
     return (
         <div className="landing">
-            <img src="https://resizeimage.net/mypic/IqBaesiZLPHq4qcT/LqoUZ/landing-coffee.jpg" />
+            <img src="https://resizeimage.net/mypic/IqBaesiZLPHq4qcT/hEriO/landing-coffee.jpg" />
         </div>
     )
 }
