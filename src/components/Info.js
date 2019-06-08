@@ -6,14 +6,14 @@ export const Info = [
     {
         id: 1,
         img: "https://images.unsplash.com/photo-1556742526-795a8eac090e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80/316x316",
-        desc: 'Black & Gold Charging Cable Bracelet',
-        price: '2.50'
+        desc: 'Caffe Latte',
+        price: '$4.50'
     },
     {
         id: 2,
         img: "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1534&q=80/316x316",
-        desc: 'it is mee',
-        price: '2.50'
+        desc: "'famous' Americano",
+        price: '$3.50'
     },
     {
         id: 3,
