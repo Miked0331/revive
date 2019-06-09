@@ -4,7 +4,7 @@ import Card from './Card'
 // using my own image
 const CardList = ({ Info }) => {
     const cardComponent = Info.map((user, i) => {
-        return <Card desc={Info[i].desc} price={Info[i].price}> <img src={Info[i].img} /></Card>
+        return <Card desc={Info[i].desc} price={Info[i].price}> <img src={Info[i].img} alt="Coffee" /></Card>
     })
     return (
         <div className="col-main">

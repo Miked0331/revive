@@ -1,6 +1,3 @@
-import React from 'react'
-import p1 from './img/p1.jpg'
-
 
 export const Info = [
     {
@@ -22,7 +19,6 @@ export const Info = [
         price: 'L- $3.50 M- $2.99'
     },
 
-    //still working on
     {
         id: 4,
         img: "https://images.unsplash.com/photo-1509481167695-0f2353142dd5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1536&q=80/316x316",
