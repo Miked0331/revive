@@ -16,7 +16,7 @@ const home = () => {
 const App = () => {
     return (
         <div>
-            <BrowserRouter>
+            <BrowserRouter basename='/revive'>
                 <div>
                     <Landing />
                     <Nav />
