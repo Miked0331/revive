@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "059e9cfb54b330137bb30287a20e8de3",
+    "revision": "5d84216b379210623e48b42c85141a3f",
     "url": "/revive/index.html"
   },
   {
-    "revision": "3bf38e4f1a1deb18d5fc",
+    "revision": "2d63b6e620ed06d88a5c",
     "url": "/revive/static/css/main.0b0257fa.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/revive/static/js/2.af3f3864.chunk.js"
   },
   {
-    "revision": "3bf38e4f1a1deb18d5fc",
-    "url": "/revive/static/js/main.7c14606d.chunk.js"
+    "revision": "2d63b6e620ed06d88a5c",
+    "url": "/revive/static/js/main.98c68948.chunk.js"
   },
   {
     "revision": "d3d20e9fa38c5722ad4b",
