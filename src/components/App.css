@@ -11,22 +11,20 @@ body {
     padding-top: 10px;
 }
 
+/*smaller margin on smaller screen */
 @media only screen and (max-width: 1200px) {
   .col-main {
     margin: 0 5% 0 5%;
     grid-template-columns: repeat(auto-fit, minmax(12.5rem, 1fr));
   }
 }
-
+/*image set to 100% */
   .col-1 img{    
     width: 100%;
     height: auto;
-  }
+  }  
 
-
-
-  
-
+  /* text format on menu */
   .col-1 p{
     color:#ffb800;
     font-weight: 500;
@@ -47,8 +45,10 @@ body {
   }
 
   .nav {
+    display: flex;
     background-color: #ffb800;
     height: 50px;
+    justify-content: flex-start;
   }
 
   .nav-items {
