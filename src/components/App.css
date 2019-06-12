@@ -41,14 +41,16 @@ body {
     font-family: Montserrat,sans-serif;
   }
 
-  .landing {
-    text-align: left;
+  .landing {   
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     margin:  0 21% 0 21%;  
+    font-size: 2em;
   }
 
   .landing img {
-    width: 316px;
-    height: auto; 
+    max-width: 100%;
+    height: auto;    
   }
 
   .nav {
@@ -71,14 +73,16 @@ body {
 
   @media only screen and (max-width: 1200px) {
     .landing {
+      text-align: center;
+      font-size: 1.5em;
       margin: 0 5% 0 5%;
     }
   }
 
   @media only screen and (max-width: 1200px) {
     .landing img {
-      width: 250px;
-      height: 25vh;
+      max-width: 100%;
+      height: auto;
     }
   }
 
