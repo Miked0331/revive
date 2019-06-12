@@ -14,7 +14,14 @@ body {
 @media only screen and (max-width: 1200px) {
   .col-main {
     margin: 0 5% 0 5%;
-    grid-template-columns: repeat(auto-fit, minmax(12.5rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
+  }
+}
+
+@media only screen and (max-width: 724px) {
+  .col-main {
+    margin: 0 5% 0 5%;
+    grid-template-columns: repeat(auto-fit, minmax(7rem, 1fr));
   }
 }
 

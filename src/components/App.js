@@ -1,5 +1,5 @@
 import React from 'react'
-import { BrowserRouter, Route, } from 'react-router-dom'
+import { BrowserRouter, Route } from 'react-router-dom'
 import './App.css'
 import CardList from './CardList'
 import { Info } from './Info'
@@ -21,8 +21,8 @@ const App = () => {
                     <Landing />
                     <Nav />
                     <Route path='/' exact component={home} />
-                    <Route path='/contact' exact component={Contact} />
-                    <Route path='/about' exact component={About} />
+                    <Route path='/contact'  component={Contact} />
+                    <Route path='/about'  component={About} />
                 </div>
             </BrowserRouter>
         </div>
