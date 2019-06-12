@@ -1,5 +1,5 @@
 import React from 'react'
-import { BrowserRouter, Route, } from 'react-router-dom'
+import { HashRouter, Route, } from 'react-router-dom'
 import './App.css'
 import CardList from './CardList'
 import { Info } from './Info'
@@ -16,7 +16,7 @@ const home = () => {
 const App = () => {
     return (
         <div>
-            <BrowserRouter basename='/revive'>
+            <HashRouter basename='/revive'>
                 <div>
                     <Landing />
                     <Nav />
@@ -24,7 +24,7 @@ const App = () => {
                     <Route path='/contact' exact component={Contact} />
                     <Route path='/about' exact component={About} />
                 </div>
-            </BrowserRouter>
+            </HashRouter>
         </div>
     )
 }
