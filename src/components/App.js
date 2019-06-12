@@ -1,9 +1,5 @@
 import React from 'react'
-<<<<<<< HEAD
-import { BrowserRouter, Route } from 'react-router-dom'
-=======
 import { HashRouter, Route, } from 'react-router-dom'
->>>>>>> test
 import './App.css'
 import CardList from './CardList'
 import { Info } from './Info'
@@ -25,8 +21,8 @@ const App = () => {
                     <Landing />
                     <Nav />
                     <Route path='/' exact component={home} />
-                    <Route path='/contact'  component={Contact} />
-                    <Route path='/about'  component={About} />
+                    <Route path='/contact' component={Contact} />
+                    <Route path='/about' component={About} />
                 </div>
             </HashRouter>
         </div>
