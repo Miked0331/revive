@@ -11,7 +11,7 @@ const Contact = () => {
                 </div>
                 <div class="row">
                     <div class="column">
-                        <img src="https://images.unsplash.com/photo-1504805572947-34fad45aed93?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80" />
+                        <img src="https://images.unsplash.com/photo-1504805572947-34fad45aed93?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80" alt="do something great" />
                     </div>
                     <div class="column">
                         <form action="/action_page.php">
@@ -27,7 +27,7 @@ const Contact = () => {
                             </select>
                             <label for="subject">Subject</label>
                             <textarea id="subject" name="subject" placeholder="Write something.." ></textarea>
-                            <input type="submit" value="Submit" />
+                            <input type="Button" value="Submit" />
                         </form>
                     </div>
                 </div>
