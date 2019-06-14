@@ -46,6 +46,7 @@ body {
     grid-template-columns: 1fr 1fr;
     margin:  0 21% 0 21%;  
     font-size: 2em;
+    color: #ffb800;
   }
 
   .landing img {
@@ -157,3 +158,24 @@ body {
  .contact-container {
    margin: 0 5% 0 5%;
 }}
+
+.home {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 0 21% 0 21%;
+}
+
+.home-item {
+  color: #ffb800;
+}
+
+.home-item img {
+  width: 100%;
+  height: auto;
+}
+
+@media screen and (max-width: 1200px) {
+  .home {
+    display: block;
+    margin: 0 5% 0 5%;
+ }}

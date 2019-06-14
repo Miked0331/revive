@@ -7,6 +7,7 @@ import Contact from './Contact'
 import Nav from './Nav'
 import Landing from './Landing'
 import Footer from './Footer'
+import Home from './Home.js'
 
 const menu = () => {
     return <CardList Info={Info} />
@@ -20,6 +21,7 @@ const App = () => {
                 <div>
                     <Landing />
                     <Nav />
+                    <Route path='/' exact component={Home} />
                     <Route path='/contact' component={Contact} />
                     <Route path='/menu' component={menu} />
 
