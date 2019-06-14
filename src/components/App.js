@@ -6,6 +6,7 @@ import { Info } from './Info'
 import Contact from './Contact'
 import Nav from './Nav'
 import Landing from './Landing'
+import Footer from './Footer'
 
 const menu = () => {
     return <CardList Info={Info} />
@@ -21,6 +22,8 @@ const App = () => {
                     <Nav />
                     <Route path='/contact' component={Contact} />
                     <Route path='/menu' component={menu} />
+
+                    <Footer />
                 </div>
             </HashRouter>
         </div>
