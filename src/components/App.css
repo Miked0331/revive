@@ -45,10 +45,11 @@ body {
     margin:  0 21% 0 21%;  
     font-size: 2em;
     color: #ffb800;
+    text-align: center;
   }
 
   .landing img {
-    max-width: 100%;
+    width: 718px;
     height: auto;    
   }
 
