@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/revive/static/css/main.0e694be5.chunk.css",
-    "main.js": "/revive/static/js/main.70c11526.chunk.js",
-    "main.js.map": "/revive/static/js/main.70c11526.chunk.js.map",
+    "main.css": "/revive/static/css/main.5148010b.chunk.css",
+    "main.js": "/revive/static/js/main.474e3a7b.chunk.js",
+    "main.js.map": "/revive/static/js/main.474e3a7b.chunk.js.map",
     "runtime~main.js": "/revive/static/js/runtime~main.6e3875ef.js",
     "runtime~main.js.map": "/revive/static/js/runtime~main.6e3875ef.js.map",
     "static/js/2.285bca60.chunk.js": "/revive/static/js/2.285bca60.chunk.js",
     "static/js/2.285bca60.chunk.js.map": "/revive/static/js/2.285bca60.chunk.js.map",
     "index.html": "/revive/index.html",
-    "precache-manifest.d30a2c881369a8d6ddb890b201a6b5e4.js": "/revive/precache-manifest.d30a2c881369a8d6ddb890b201a6b5e4.js",
+    "precache-manifest.37da4fa61722e0b878e45fcd08100f34.js": "/revive/precache-manifest.37da4fa61722e0b878e45fcd08100f34.js",
     "service-worker.js": "/revive/service-worker.js",
-    "static/css/main.0e694be5.chunk.css.map": "/revive/static/css/main.0e694be5.chunk.css.map",
+    "static/css/main.5148010b.chunk.css.map": "/revive/static/css/main.5148010b.chunk.css.map",
     "static/media/revivelogo.png": "/revive/static/media/revivelogo.60332fa6.png"
   }
 }
