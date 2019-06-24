@@ -41,8 +41,7 @@ body {
     font-family: Montserrat,sans-serif;
   }
 
-  .landing {   
-    
+  .landing {    
     margin:  0 21% 0 21%;  
     font-size: 2em;
     color: #ffb800;
@@ -160,7 +159,7 @@ body {
 .home {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  margin: 0 21% 0 21%;
+  margin: 1% 21% 0 21%;
 }
 
 .home-item {
